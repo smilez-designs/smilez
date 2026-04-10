@@ -1,20 +1,142 @@
-  <div class="card">UI / UX</div>
+ <link rel="stylesheet" href="style.css" />
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smilez Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="nav-logo">
+      <img src="images/smilez_logo.png" alt="Smilez logo">
+    </a>
+
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">
+      Graphic Designer / Visual Storytelling / Motion / UI
+    </p>
+
+    <div class="hero-lockup">
+      <img src="images/smilez_logo.png" alt="Smilez logo" class="hero-logo">
+      <h1 class="hero-title">Smilez</h1>
+    </div>
+  </div>
+</section>
+
+  <main>
+    <section id="work" class="section">
+      <div class="section-head">
+        <p class="section-label">Selected Work</p>
+        <h2>Projects across print, digital, motion, and brand storytelling.</h2>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Posters</button>
+        <button class="filter-btn">Marketing</button>
+        <button class="filter-btn">Motion</button>
+        <button class="filter-btn">Packaging</button>
+        <button class="filter-btn">Zines</button>
+        <button class="filter-btn">UI/UX</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card large">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <span class="tag">Campaign / Marketing</span>
+            <h3>Sabah Brand Work</h3>
+            <p>Email design, print collateral, and visual storytelling.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <span class="tag">Editorial / Zine</span>
+            <h3>Oasis Zine</h3>
+            <p>A grungy, maximalist booklet inspired by the visual energy of the 90s.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <span class="tag">Typography</span>
+            <h3>Groove Cut</h3>
+            <p>A custom display typeface built from analog sketching to digital form.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <span class="tag">UI / UX</span>
+            <h3>Interface Concepts</h3>
+            <p>Digital layouts focused on clarity, personality, and visual rhythm.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I’m a graphic designer creating bold, fun, and visually engaging work
-        across print, digital, motion, and branding.
-      </p>
+    <section id="about" class="section about">
+      <div class="section-head">
+        <p class="section-label">About</p>
+        <h2>Hi! I'm Miles Browning, or Better Known as Smilez.</h2>
+      </div>
+
+      <div class="about-grid">
+        <p>
+          I'm a designer with a strong interest in branding, visual storytelling, 
+          and concept-driven design. Known for a strong work ethic, attention to detail, and a collaborative 
+          approach, with hands-on experience contributing to real campaigns and creative projects, motivated to 
+          keep learning, refining craft, and growing within a thoughtful, design-driven team.
+        </p>
+
+        <ul class="about-list">
+          <li>Based in NYC</li>
+          <li>Graphic Design Student</li>
+          <li>Branding, Editorial, Motion, Digital</li>
+          <li>Adobe Creative Suite, Figma, </li>
+        </ul>
+      </div>
     </section>
 
     <section id="resume" class="section">
-      <h2>Resume</h2>
-      <p>Add your resume details here or link a PDF.</p>
+      <div class="section-head">
+        <p class="section-label">Resume</p>
+        <h2>Experience, Tools, and Selected Professional Work.</h2>
+      </div>
+
+      <div class="resume-box">
+        <p>Add your resume summary here, then link your PDF.</p>
+        <a href="#" class="resume-link">Download Resume</a>
+      </div>
     </section>
   </main>
+
+  <footer id="contact" class="footer">
+    <h2>Let’s Work Together.</h2>
+    <p>Email: mileslennon1@gmail.com</p>
+    <p>Behance / Instagram / LinkedIn</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
